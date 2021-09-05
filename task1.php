@@ -6,7 +6,7 @@ if($bill<=50)
 {
 	echo("value"." = ". $bill * 3.50 ." "."$");
 	
-}elseif($bill<=150)
+}elseif(($bill>50)&&($bill<=150))
 {
 	echo("value"." = ". $bill * 4 ." "."$");
 	
@@ -15,7 +15,4 @@ elseif($bill>150)
 {
 	echo("value"." = ". $bill * 6.5 ." "."$");
 }
-
-
-
 ?>
