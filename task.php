@@ -16,9 +16,6 @@ switch($bill)
 	case ($bill>150):
 		echo("value"." = ". $bill * 6.5 ." "."$");
 		break;
-	default:
-		echo('no');
-		
 }
 
 
